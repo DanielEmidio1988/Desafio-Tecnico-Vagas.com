@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Técnico: Vagas.com</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <form class="form" id="form">
+            <div class="form_header">
+                <h2>Formulário<br> para compra de<br> <b>Pacote de Stickers</b></h2>
+            </div>
+            <div class="form_menu">
+                <h3>Quais stickers?</h3>
+                <div class="form_menu_option">
+                    <div class="custom_input">
+                        <input type="checkbox" name="react" id="react" value="react">
+                        <label for="react">React</label>
+                    </div>                   
+                </div>
+                <div class="form_menu_option">
+                    <div class="custom_input">
+                        <input type="checkbox" name="vue" id="vue" value="vue">
+                        <label for="vue">Vue</label>
+                    </div>                   
+                </div>
+                <div class="form_menu_option">
+                    <div class="custom_input">
+                        <input type="checkbox" name="angular" id="angular" value="angular">
+                        <label for="angular">Angular</label>
+                    </div>                   
+                </div>
+            </div>
+            <div class="form_qtd">
+                <h3>Quantos stickers de cada?</h3>
+                <div class="form_qtd_qtd">
+                    <button type="button" class="button_qtd" id="btn_less">-</button>
+                    <input class="input_qtd" id="input_qtd">
+                    <button type="button" class="button_qtd" id="btn_more">+</button>
+                </div>
+            </div>
+            <div class="form_obs">
+                <h3 id="msg_input_obs">Observações</h3>
+                <input type="text" class="input_obs" id="input_obs">
+            </div>
+            <div class="form_footer">
+                <h3 class="msg_submit" id="msg_submit"></h3>
+                <input type="submit" class="button_submit_form" id="button_submit_form">
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>
